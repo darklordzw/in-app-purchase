@@ -1,7 +1,7 @@
 {
  "name": "@darklordzw/in-app-purchase",
  "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows",
- "version": "1.0.0",
+ "version": "1.1.0",
  "author": {
   "name": "Nobuyori Takahashi",
   "email": "voltrue2@yahoo.com"
@@ -13,14 +13,13 @@
  "dependencies": {
   "fb": "^2.0.0",
   "jwt-simple": "^0.5.6",
-  "request": "2.88.0",
+  "request": "2.88.2",
   "urlsafe-base64": "^1.0.0",
-  "xml-crypto": "0.10.1",
-  "xmldom": "0.1.19"
+  "xml-crypto": "2.1.5"
  },
  "devDependencies": {
-  "mocha": "5.2.0",
-  "eslint": "5.6.1"
+  "mocha": "10.2.0",
+  "eslint": "8.36.0"
  },
  "scripts": {
   "test": "./precommit.sh"
